@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+
+</head>
+
+<body>
+    <div id="calc-and-buttons">
+        <div id="calcButtons">
+            
+        
+
+            <button id="drag1" class="drag" draggable="true" data-operation>+</button>
+            <button id="drag2" class="drag" draggable="true" data-operation>-</button>
+            <button id="drag16" class="drag" draggable="true" data-operation>÷</button>
+            <button id="drag17" class="drag" draggable="true" data-operation>*</button>
+            <button id="drag20" class="drag" draggable="true" data-operation>mod</button>
+            <button id="drag21" class="drag" draggable="true" data-operation>%of</button>
+            <button id="drag22" class="drag" draggable="true" data-operation>what%</button>
+            <button id="drag23" class="drag" draggable="true" data-operation>neg</button>
+            <button id="drag3" class="drag" draggable="true" data-equals>=</button>
+            <button id="drag19" class="drag" draggable="true" data-number>0</button>
+            <button id="drag4" class="drag" draggable="true" data-number>1</button>
+            <button id="drag5" class="drag" draggable="true" data-number=>2</button>
+            <button id="drag6" class="drag" draggable="true" data-number>3</button>
+            <button id="drag7" class="drag" draggable="true" data-number=>4</button>
+            <button id="drag8" class="drag" draggable="true" data-number=>5</button>
+            <button id="drag9" class="drag" draggable="true" data-number=>6</button>
+            <button id="drag10" class="drag" draggable="true" data-number=>7</button>
+            <button id="drag11" class="drag" draggable="true" data-number=>8</button>
+            <button id="drag12" class="drag" draggable="true" data-number=>9</button>
+            <button id="drag13" class="drag" draggable="true" data-number=>10</button>
+            <button id="drag18" class="drag" draggable="true" data-number=>.</button>
+            <button id="drag14" class="drag" draggable="true" data-delete>DEL</button>
+            <button id="drag15" class="drag" draggable="true" data-all-clear>AC</button>
+        </div>
+
+
+
+
+        <div id="calc">
+            <div id="calcScreen">
+                <div id="calcScreenSplit" class="output">
+                <div data-previous-operand id="screen" class="previous-operand"></div>
+                <div data-current-operand id="screen2" class="current-operand"></div>
+            </div>
+        </div>
+            <!-- create grid for calculator -->
+            <div class="gridBody" id="gridBody">
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+                <div class="block" id="div1"></div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <button onclick="addrow()">add row</button>
+    <button onclick="addcol()">add col</button>
+    <script src="app.js"></script>
+    <script src="buttonFunctions.js"></script>
+    <script src="draggables.js"></script>
+</body>
+
+</html>

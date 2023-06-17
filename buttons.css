@@ -1,0 +1,45 @@
+.drag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 50px;
+    border: solid;
+    border-radius: 120px;
+    background-color: rgb(152, 156, 181);
+    margin: 0px;
+    font-size: 30px;
+    cursor: move;
+    
+}
+
+#drag14{
+    font-size: 17px;
+}
+#drag15{
+    font-size: 17px;
+}
+
+#drag20{
+    font-size: 17px;
+}
+#drag21{
+    font-size: 17px;
+}
+#drag22{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+#drag23{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.hide {
+    display: auto;
+}
+.drag-over {
+    border: dashed 3px red;
+}
